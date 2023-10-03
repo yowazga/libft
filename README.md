@@ -1,2 +1,2 @@
 # libft
-The first project i Shool 1337
+The first project in Shool 1337
