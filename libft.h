@@ -6,12 +6,21 @@
 /*   By: yowazga <yowazga@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/30 15:55:13 by yowazga           #+#    #+#             */
-/*   Updated: 2024/06/10 09:31:29 by yowazga          ###   ########.fr       */
+/*   Updated: 2024/06/10 09:35:47 by yowazga          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
+
+/**
+ * @file libft.h
+ * @brief Header file for the libft library.
+ *
+ * This file contains the necessary header files and declarations for the libft library.
+ * The library provides various utility functions for string manipulation, memory allocation,
+ * file operations, and more.
+ */
 
 # include <unistd.h>
 # include <stdio.h>
