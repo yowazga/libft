@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: yowazga <yowazga@student.1337.ma>          +#+  +:+       +#+        */
+/*   By: yowazga <yowazga@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/30 15:55:13 by yowazga           #+#    #+#             */
-/*   Updated: 2022/10/22 22:25:10 by yowazga          ###   ########.fr       */
+/*   Updated: 2024/06/10 09:31:29 by yowazga          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,11 +20,17 @@
 # include <fcntl.h>
 # include <stddef.h>
 
+/**
+ * @brief Structure representing a linked list node.
+ * 
+ * The `t_list` structure represents a node in a linked list.
+ * It contains a pointer to the content of the node and a pointer to the next node in the list.
+ */
 typedef struct s_list
 {
-	void			*content;
-	struct s_list	*next;
-}	t_list;
+	void            *content;   /**< Pointer to the content of the node. */
+	struct s_list   *next;      /**< Pointer to the next node in the list. */
+} t_list;
 
 int		ft_isalpha(int c);
 int		ft_isalnum(int c);
