@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: yowazga <yowazga@student.1337.ma>          +#+  +:+       +#+        */
+/*   By: yowazga <yowazga@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/02 15:52:27 by yowazga           #+#    #+#             */
-/*   Updated: 2022/10/10 12:56:51 by yowazga          ###   ########.fr       */
+/*   Updated: 2024/06/10 09:39:52 by yowazga          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,5 +38,4 @@ int	ft_atoi(const char *str)
 {
 	char s[] = " 	+930";
 	printf("%d", ft_atoi(s));
-	return (0);
 }*/

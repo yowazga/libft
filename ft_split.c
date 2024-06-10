@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: yowazga <yowazga@student.1337.ma>          +#+  +:+       +#+        */
+/*   By: yowazga <yowazga@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/12 16:59:14 by yowazga           #+#    #+#             */
-/*   Updated: 2022/10/18 19:54:04 by yowazga          ###   ########.fr       */
+/*   Updated: 2024/06/10 09:40:05 by yowazga          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -105,5 +105,4 @@ char	**ft_split(char const *s, char c)
         printf("tab[%d] = %s\n",i, str[i]);
         i++;
     }
-	return (0);
 }*/
